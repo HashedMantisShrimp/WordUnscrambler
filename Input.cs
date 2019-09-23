@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using WordUnScrambler.DataManagement;
 
@@ -35,13 +35,16 @@ namespace WordUnScrambler.Workers
                 "please enter the full file path with its name and extension.");
                 return Data.RepeatProcess = false;
 
-            } else if (userChoice1 == 0) {
+            }
+            else if (userChoice1 == 0)
+            {
                 Console.WriteLine("Would you like to submit your words manually or through a file?");
                 Console.WriteLine("Enter '1' for a manual input, '2' for a file type input or '3' to close the application.");
                 return Data.RepeatProcess;
 
             }
-            else if (userChoice1 == 3) {
+            else if (userChoice1 == 3)
+            {
                 Console.WriteLine();
                 Console.WriteLine("You chose option '3'. The application will close shortly.");
                 Console.WriteLine("Please acknowledge by pressing any key.");
@@ -49,7 +52,8 @@ namespace WordUnScrambler.Workers
                 System.Environment.Exit(1);
                 return Data.RepeatProcess = false;
             }
-            else {
+            else
+            {
                 Console.WriteLine();
                 Console.WriteLine("There was an error with your choice. Please make sure you entered either" +
                     "'1' or '2' or enter '3' to exit application.");
