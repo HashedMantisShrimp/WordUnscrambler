@@ -13,7 +13,7 @@ The program is also ready to handle certain exceptions in case the user types in
 
 -------------------------------------------------------------------------------------------------------
 
-**General descritpion of the Scripts**
+**General Descritpion of the Scripts**
 
 
 **[Data](https://github.com/PauloB04/WordUnscrambler/blob/master/Data.cs)** Is a part of the DataManagement library. **Data** Is a struct that contains most of the content used throughout the program. It allows the other classes to get or set the data needed to make the program work. 
