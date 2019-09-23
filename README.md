@@ -24,7 +24,7 @@ The program is also ready to handle certain exceptions in case the user types in
 
 **[Input](https://github.com/PauloB04/WordUnscrambler/blob/master/Input.cs)** Is part of the Workers library, the **Input** class contains the instructions on how to execute the program and manages some of the user input. It then stores the user input into **Data**.
 
-**[Unscrambler](https://github.com/PauloB04/WordUnscrambler/blob/master/Unscrambler.cs)** Is part of the Workers library, it is essentially the heart or core of the application. **Unscrambler** takes the data acquired by the **Input** class and uses it to look through a list of unscrambled words for matches and when a match is found, it takes the scrambled word, the matched word and adds it to a list of **MatchedWords**, which is then displayed to the user.
+**[Unscrambler](https://github.com/PauloB04/WordUnscrambler/blob/master/Unscrambler.cs)** Is part of the Workers library, it is essentially the heart or core of the application. **Unscrambler** takes the data acquired by the **Input** class and uses it to look through a list of unscrambled words for matches and when a match is found, it takes the scrambled word and its matched word to add it to a list of **MatchedWords**, which is then displayed to the user.
 
 **[Program](https://github.com/PauloB04/WordUnscrambler/blob/master/Program.cs)** Is the part of the application that makes use of the different libraries to call on methods and run the application.
 
