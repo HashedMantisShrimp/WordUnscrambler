@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using WordUnScrambler.DataManagement;
@@ -23,7 +23,8 @@ namespace WordUnScrambler.Workers
                     {
                          _matchedwords.Add(MatchBuilder(_scrambledWord, _word));
                     }
-                    else {
+                    else
+                    {
                         var scrambledWordArray = _scrambledWord.ToLower().ToCharArray();
                         var wordArray = _word.ToLower().ToCharArray();
 
@@ -33,7 +34,8 @@ namespace WordUnScrambler.Workers
                         var sortedScrambledArray = new string(scrambledWordArray);
                         var sortedWordArray = new string(wordArray);
 
-                        if (sortedScrambledArray.Equals(sortedWordArray, StringComparison.OrdinalIgnoreCase)) {
+                        if (sortedScrambledArray.Equals(sortedWordArray, StringComparison.OrdinalIgnoreCase))
+                        {
                             _matchedwords.Add(MatchBuilder(_scrambledWord, _word));
                         }
                     }
@@ -43,20 +45,24 @@ namespace WordUnScrambler.Workers
         }
 
         public void MatchesFound(string[] scrambledWords) {
-           string[] wordList = Data.Dictionary;
+            string[] wordList = Data.Dictionary;
 
-           List<MatchedWords> Matches = Matcher(scrambledWords, wordList);
+            List<MatchedWords> Matches = Matcher(scrambledWords, wordList);
 
-           if (Matches.Any()) {
-               Console.WriteLine();
-               Console.WriteLine("These were the matches found for the given words: ");
-               foreach (var element in Matches) {
-                   Console.WriteLine("Match found for {0}: {1}", element.SramcbledWord,element.Word);
-               }
-           } else{
-               Console.WriteLine();
-               Console.WriteLine("There were no matches found for the words given.");
-           }
+            if (Matches.Any())
+            {
+                Console.WriteLine();
+                Console.WriteLine("These were the matches found for the given words: ");
+                foreach (var element in Matches)
+                {
+                    Console.WriteLine("Match found for {0}: {1}", element.SramcbledWord,element.Word);
+                }
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("There were no matches found for the words given.");
+            }
         }
     }
 }
