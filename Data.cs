@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using WordUnScrambler.Workers;
 
 namespace WordUnScrambler.DataManagement
@@ -9,7 +9,7 @@ namespace WordUnScrambler.DataManagement
         public static bool RepeatProcess { get; set; }
         public static bool ContinueWordUnscrambler { get; set; }
         public static string UserFileListInput { get; set; }
-        public const string DictionaryLocation = "C:\\Users\\Paulo Lukeny\\source\\repos\\WordUnScrambler\\WordUnScrambler\\bin\\Debug\\dictionary.txt";
+        private const string DictionaryLocation = "C:\\Users\\Paulo Lukeny\\source\\repos\\WordUnScrambler\\WordUnScrambler\\bin\\Debug\\dictionary.txt";
         public static string[] ScrambledWords { get; set; }
         public static string[] Dictionary { get; set; }
 
