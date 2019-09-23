@@ -23,8 +23,8 @@ namespace WordUnScrambler.Workers
             if (userChoice1 == 1)
             {
                 Console.WriteLine();
-                Console.WriteLine(" If you chose Manual Input, please enter the scrambled words. " +
-                    "If there is more than one, separate them by comas. Like so:");
+                Console.WriteLine(" If you chose Manual Input, please enter the scrambled words. ");
+                Console.Write("If there is more than one, separate them by comas. Like so: ");
                 Console.WriteLine("This,That");
                 return Data.RepeatProcess = false;
             }
