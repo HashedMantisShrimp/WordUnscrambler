@@ -34,14 +34,12 @@ namespace WordUnScrambler.Workers
                 Console.WriteLine("If you chose the File Type Input, " +
                 "please enter the full file path with its name and extension.");
                 return Data.RepeatProcess = false;
-
             }
             else if (userChoice1 == 0)
             {
                 Console.WriteLine("Would you like to submit your words manually or through a file?");
                 Console.WriteLine("Enter '1' for a manual input, '2' for a file type input or '3' to close the application.");
                 return Data.RepeatProcess;
-
             }
             else if (userChoice1 == 3)
             {
