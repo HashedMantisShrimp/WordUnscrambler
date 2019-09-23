@@ -28,8 +28,7 @@ The program is also ready to handle certain exceptions in case the user types in
 
 **[Program](https://github.com/PauloB04/WordUnscrambler/blob/master/Program.cs)** Is the part of the application that makes use of the different libraries to call on methods and run the application.
 
-**[The Files]**
-
+**The Files**
 
 **[MyFirstFile](https://github.com/PauloB04/WordUnscrambler/blob/master/MyFirstFile.txt)** Contains a small, preset list of scrambled words to test the "file" functionality of the program.
 
