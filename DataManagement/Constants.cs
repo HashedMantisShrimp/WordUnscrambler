@@ -18,7 +18,7 @@ namespace WordUnScrambler.DataManagement
 
         //Constants for The FileReader Class
             //Used in the IsValidPath Method
-        public const string CaseReadIsNotDefaultFileMsg1 = "There was an error with the given file path: ";
+        public const string FileReaderExceptionHandler = "There was an error with the given file path: ";
             //Used in the Read Method
         public const string CaseReadIsNotDefaultFileMsg2 = "The application will now restart.";
         public const string CaseReadIsNotDefaultFileMsg3 = "Please either enter the full correct path at the right step, enter " +
