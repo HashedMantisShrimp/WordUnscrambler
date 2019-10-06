@@ -1,4 +1,4 @@
-﻿namespace WordUnScrambler.DataManagement
+namespace WordUnScrambler.DataManagement
 {
     class Constants
     {
@@ -6,16 +6,20 @@
         public const string ErrorCaught = "The application will close due to the following error: ";
 
         //Constant for the Data Class
+            //Used in the UploadDictionary Method
         public const string DictionaryLocation = "dictionary.txt";
         
 
         //Constants for the Unscrambler class
+            //Used in the MatchesFound Method
         public const string CaseMatchesFound = "These were the matches found for the given words: ";
         public const string CaseNoMatchesFound = "There were no matches found for the given words.";
         public const string OutputMatches = "Match found for {0}: {1}";
 
         //Constants for The FileReader Class
+            //Used in the IsValidPath Method
         public const string CaseReadIsNotDefaultFileMsg1 = "There was an error with the given file path: ";
+            //Used in the Read Method
         public const string CaseReadIsNotDefaultFileMsg2 = "The application will now restart.";
         public const string CaseReadIsNotDefaultFileMsg3 = "Please either enter the full correct path at the right step, enter " +
             "1 to input the words manually or";
