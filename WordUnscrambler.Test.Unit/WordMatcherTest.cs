@@ -1,8 +1,5 @@
-﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordUnScrambler.Workers;
-using WordUnScrambler.DataManagement;
-using System.Collections.Generic;
 
 namespace WordUnscrambler.Test.Unit
 {
