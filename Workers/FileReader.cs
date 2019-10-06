@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using WordUnScrambler.DataManagement;
 using System.IO;
@@ -63,7 +63,7 @@ namespace WordUnScrambler.Workers
             catch (Exception ex)
             {
                 isValid = false;
-                Console.WriteLine(Constants.CaseReadIsNotDefaultFileMsg1 + ex.Message);
+                Console.WriteLine(Constants.FileReaderExceptionHandler + ex.Message);
             }
             return isValid;
         }
