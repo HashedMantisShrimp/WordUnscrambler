@@ -7,7 +7,7 @@ The purpose of this console application is to showcase some of my current knowle
 
 **WordUnscrambler** Allows the user to enter scrambled words and search for matches within a list that contains the correct/unscrambled version of the words. The user may choose to search for words manually, by writting the scrambled words while the application is running or he may choose to enter a file with scrambled words which will be matched against a list of unscrambled words, all the user needs to do is either input the full path to the file including its name and extensions or enter the words manually and separating them by commas.
 
-The program is also ready to handle most exceptions in case the user types in some sort of unrecognized input or if, for example, the path to the file is invalid. Therefor making the application **"Crash"-free**.
+The program is also ready to handle most exceptions in case the user types in some sort of unrecognized input or if, for example, the path to the file is invalid. Therefore making the application **"Crash"-free**.
 
 -------------------------------------------------------------------------------------------------------
 
