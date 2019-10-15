@@ -5,7 +5,7 @@ using WordUnScrambler.DataManagement;
 
 namespace WordUnScrambler.Workers
 {
-    public class Unscrambler
+    class Unscrambler
     {
         private MatchedWords MatchBuilder(string scrambledWord_, string word_) {
             MatchedWords matchedWord = new MatchedWords { SramcbledWord = scrambledWord_, Word = word_ };
